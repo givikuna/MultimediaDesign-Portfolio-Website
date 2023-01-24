@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.header {
+    width: 100%;
+    height: 85px;
+    background-color: #0c3522;
+    opacity: 0.9;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.navBar {
+    height: 100%;
+}
+
+.navBar_li {
+    height: 100%;
+    float: right;
+    margin-right: 500px;
+    font-size: 24px;
+    text-align: center;
+    display: table-cell;
+}
+
+.navBar_span {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navBar_hyperlink {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.dropdown-content {
+    margin: 0px -26px;
+    display: none;
+    position: fixed;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+.colorStart {
+    background-color: #0c3522;
+    filter: brightness(1);
+}
+
+.dropdown-content a {
+    padding: 12px 12px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navBar_dropdown_hyperlink {
+    font: initial;
+    font-size: 20px;
+    filter: brightness(1.8);
+    color: rgb(255, 255, 255);
+    text-decoration: inherit;
+    border: 1px thin rgb(34, 26, 26);
+}
+
+.navBar_dropdown_hyperlink:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    -ms-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.02);
+}
+
+/* GENERAL */
+
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #0c3522;
+    opacity: 0.9;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.navBar {
+    text-align: center;
+    height: 100%;
+}
+
+.navBar_li {
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.navBar_span {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navBar_hyperlink {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+*/
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// Dropdown menu: */
+
+/*
+
+.dropdown {
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.dropdown-content {
+    margin: 0px -26px;
+    display: none;
+    position: fixed;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+.dropdown-content a {
+    padding: 12px 12px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navBar_dropdown_hyperlink {
+    font: initial;
+    font-size: 20px;
+    filter: brightness(1.8);
+    color: rgb(8, 19, 54);
+    text-decoration: inherit;
+    border: 1px thin rgb(34, 26, 26);
+}
+
+.navBar_dropdown_hyperlink:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    -ms-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.02);
+}
+
+*/
